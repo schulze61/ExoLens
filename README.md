@@ -19,14 +19,14 @@ We have include additional functionality in functions_misc.py.
 
 
 Required inputs:
-•	mass: a tuple of measured planetary mass and it's uncertainty -- [M, sigM]
-•	radius: a tuple of measured planetary radius and it's uncertainty -- [R, sigR]
+(1)	mass: a tuple of measured planetary mass and it's uncertainty -- [M, sigM]
+(2)	radius: a tuple of measured planetary radius and it's uncertainty -- [R, sigR]
    
     
 Optional inputs:
-     planet_fname: file name for plot output
-    sratios: the host star's Fe/Mg and Si/Mg ratios -- [FeMg, sigFeMg,SiMg,sigSiMg]
-•	 If the user only has stellar [Fe/H] there is a function called approx_SiH_MgH in functions_misc.py that will approximate values for [Si/H] and [Mg/H] from the Hypatia Catalogue (Hinkel et al. 2014).
+(1) planet_fname: file name for plot output
+(2) sratios: the host star's Fe/Mg and Si/Mg ratios -- [FeMg, sigFeMg,SiMg,sigSiMg]
+      If the user only has stellar [Fe/H] there is a function called approx_SiH_MgH in functions_misc.py that will approximate values for [Si/H] and [Mg/H] from the Hypatia Catalogue (Hinkel et al. 2014).
 •	There is also a function called calc_FeMg_SiMg in functions_misc.py that takes in [Fe/H], [Si/H], and [Mg/H] which will calculate the Fe/Mg and Si/Mg ratios and their uncertainties.
              
 Outputs:
